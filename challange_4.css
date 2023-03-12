@@ -1,0 +1,47 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    margin: 70px;
+}
+
+#heading{
+    height: 80px;
+    background-color: rgb(164, 228, 151);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 60px;
+    border: 2px solid black;
+    padding: 100px;
+    margin: 0;
+}
+nav{
+    background: rgb(118, 116, 116);
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    margin: 0.2px;
+    border: 1px solid black;
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    position: sticky;
+}
+a:hover{
+    color: black;
+}
+.Hoses{
+    font-size: larger;
+}
+.Racks{
+    font-size: larger;
+}
+.Shovels{
+    font-size: larger;
+}
